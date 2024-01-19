@@ -43,6 +43,21 @@ input:hover {
     background: #BCA79D;
 }
 
+button {
+    padding: 5px 8px;
+    font-size: 1.2rem;
+    border: 0.2rem solid #BCA79D;
+    border-radius: 1rem;
+    color: #2F4858;
+    background-color: #DFE0DF;
+    width: 40%;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #BCA79D;
+}
+
 .wrapper {
     max-width: 1000px;
     width: 100%;
@@ -144,7 +159,50 @@ input:hover {
 
 .video-wrapper {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 /* VIDEO STYLES - end */
+
+/* PRODUCTS STYLES - start */
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid #DFE0DF;
+    background-color: #DFE0DF;
+    color: #2F4858;
+    width: 30%;
+    padding: 10px 15px 15px;
+    text-align: center;
+}
+
+.card-title {
+    border-bottom: 0.1rem solid #BCA79D;
+    color: #427EFF;
+    padding-bottom: 5px;
+}
+
+.card-price {
+    color: #427EFF;
+    padding-top: 5px;
+}
+
+.card-description {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.card-description::first-letter {
+    font-size: 1.5rem;
+    color: #E56313;
+    float: left;
+    margin-right: 0.1rem;
+}
