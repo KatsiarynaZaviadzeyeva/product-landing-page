@@ -1,0 +1,68 @@
+/* GLOBAL STYLES - start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #2F4858;
+    color: #DFE0DF;
+    font-family: 'Heebo', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #DFE0DF;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* GLOBAL STYLES - end */
+
+/* HEADER STYLES - start */
+
+.header-wrapper {
+    position: sticky;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DFE0DF;
+}
+
+.header-logo {
+    width: 40rem;
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 50px;
+    color: #2F4858;
+    font-size: 1.6rem;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #E56313;
+}
+
+/* HEADER STYLES - end */
+
+/* INTRO STYLES - start */
