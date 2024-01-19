@@ -7,6 +7,7 @@
     <title>Product Landing Page</title>
     <link rel="shortcut icon" href="./assets/pictures/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <script src='https://kit.fontawesome.com/41341f7984.js' crossorigin='anonymous'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
@@ -28,8 +29,8 @@
         </header>
         <main class="main">
             <section class="intro">
-                <h1>Handcrafted, home-made masterpieces</h1>
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h1 class="intro-title">Handcrafted, home-made masterpieces</h1>
+                <form id="form" class="intro-form" action="https://www.freecodecamp.com/email-submit">
                     <input name="email" id="email" type="email" placeholder="Enter your email address" required />
                     <input id="submit" type="submit" value="Get Started" class="btn" />
                 </form>
@@ -37,33 +38,53 @@
             <section id="features">
                 <div class="features-wrapper">
                     <div class="features-item">
-                        <div class="icon"><i class="fa fa-trophy"></i></div>
-                        <h2 class="features-title">Premium Materials</h2>
+                        <div class="features-header">
+                            <div class="icon"><i class="fa fa-trophy"></i></div>
+                            <h2 class="features-title">Premium Materials</h2>
+                        </div>
                         <p class="features-description">
                             Our trombones use the shiniest brass which is sourced locally. This will increase the
                             longevity
-                            of your purchase.
+                            of your purchase. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+                            quisquam sunt hic iure unde delectus maxime adipisci doloremque, distinctio suscipit, cum ut
+                            asperiores similique quaerat at eaque vel incidunt! Eligendi animi dolorum at porro corporis
+                            vitae voluptatibus repellendus facere, officia doloribus natus fugiat dolorem pariatur
+                            molestias, perspiciatis illo, iste et.
                         </p>
                     </div>
                     <div class="features-item">
-                        <div class="icon"><i class="fa fa-truck"></i></div>
-                        <h2 class="features-title">Fast Shipping</h2>
+                        <div class="features-header">
+                            <div class="icon"><i class="fa fa-truck"></i></div>
+                            <h2 class="features-title">Fast Shipping</h2>
+                        </div>
                         <p class="features-description">
                             We make sure you recieve your trombone as soon as we have finished making it. We also
-                            provide free returns if you are not satisfied.
+                            provide free returns if you are not satisfied. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Aperiam magni vitae tempora, sit perspiciatis nam accusantium assumenda
+                            cumque asperiores, ad eaque sunt commodi non sed fugit? Tempore distinctio corporis vitae,
+                            non odio ab veniam! Autem, laborum sed. Hic doloremque quisquam quaerat similique quo culpa
+                            in assumenda aperiam fuga sit commodi accusantium vero quidem id at, dicta voluptatem,
+                            excepturi debitis laborum!
                         </p>
                     </div>
                     <div class="features-item">
-                        <div class="icon"><i class="fa fa-battery-full"></i></div>
-                        <h2 class="features-title">Quality Assurance</h2>
+                        <div class="features-header">
+                            <div class="icon"><i class="fa fa-battery-full"></i></div>
+                            <h2 class="features-title">Quality Assurance</h2>
+                        </div>
                         <p class="features-description">
-                            For every purchase you make, we will ensure there are no damages or faults and we will check
-                            and test the pitch of your instrument.
+                            For every purchase you make, we will ensure there are no damages or faults and we will
+                            check
+                            and test the pitch of your instrument. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Consequuntur perferendis excepturi, reiciendis consectetur odio inventore deleniti
+                            temporibus autem, dolore soluta facere cum error ab optio? Beatae dolor rerum in omnis autem
+                            voluptates nihil sequi repudiandae asperiores perferendis aliquid sunt unde repellat
+                            dolorem, eos earum iusto natus! Tempora atque, iste debitis quae iusto earum modi.
                         </p>
                     </div>
                 </div>
             </section>
-            <section id="how-it-works">
+            <section id="how-it-works" class="video-wrapper">
                 <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc"
                     title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
