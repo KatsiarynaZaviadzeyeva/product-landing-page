@@ -15,6 +15,7 @@ body {
     color: #DFE0DF;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
+    font-size: 2rem;
 }
 
 li {
@@ -28,7 +29,7 @@ a {
 
 input {
     padding: 10px 15px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border: 0.2rem solid #427EFF;
     border-radius: 1rem;
     background: #2F4858;
@@ -45,7 +46,7 @@ input:hover {
 
 button {
     padding: 5px 8px;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border: 0.2rem solid #BCA79D;
     border-radius: 1rem;
     color: #2F4858;
@@ -106,7 +107,7 @@ button:hover {
 }
 
 .intro-title {
-    font-size: 2.7rem;
+    font-size: 4rem;
     color: #E56313;
     text-align: center;
 }
@@ -205,4 +206,53 @@ button:hover {
     color: #E56313;
     float: left;
     margin-right: 0.1rem;
+}
+
+/* PRODUCTS STYLES - start */
+
+/* FOOTER STYLES - start */
+
+.footer {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-links>li:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* FOOTER STYLES - end */
+
+/* MEDIA QUERIES - start */
+
+@media (max-width: 800px) {
+
+    .nav-link {
+        margin-left: 10px;
+    }
+
+    .features-wrapper {
+        padding: 45px;
+    }
+
+    .products {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-navigation {
+        display: none;
+    }
+
+    .logo {
+        margin: auto;
+    }
 }
