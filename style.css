@@ -256,6 +256,14 @@ button:hover {
         margin: auto;
     }
 
+    .intro-form {
+        flex-wrap: wrap;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
     .products {
         flex-wrap: wrap;
     }
